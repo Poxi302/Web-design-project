@@ -1,0 +1,519 @@
+.nav-link {
+    color: yellow !important;
+    font-size: 20px;
+}
+
+.dropdown-item {
+    color: yellow;
+    font-size: 20px;
+}
+
+.dropdown-menu {
+    background-color: #0d6efd;
+}
+
+.onama-slike {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.onama-slike-2 {
+    width: 700px;
+}
+
+#posaljiDugme {
+    margin-left: 250px;
+    width: 10rem;
+}
+
+.kontakt-lista {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.photo-gallery {
+    color: #313437;
+    background-color: #fff;
+}
+
+.photo-gallery .photos {
+    padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+    padding-bottom: 30px;
+}
+
+.galerija-slika {
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+.link-onama {
+    text-decoration: none;
+    color: black;
+}
+
+.link-onama:hover {
+    color: rgb(51, 51, 51);
+}
+
+.index-naslov {
+    text-align: center;
+}
+
+.telo-karte-video-igre {
+    height: 190px;
+}
+
+.slike-novosti {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #0D6EFD;
+}
+
+.footer-link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.footer-link-2 {
+    color: yellow;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: rgb(245, 245, 168);
+}
+
+.footer-elementi {
+    list-style: none;
+}
+
+.footer-liste {
+    display: inline-table;
+}
+
+.footer-link-nepotreban {
+    color: #0D6EFD;
+    text-decoration: none;
+}
+
+.footer-div {
+    text-align: center;
+}
+
+.novosti-kartice {
+    width: 50%;
+}
+
+.kartica-video-igre {
+    margin-left: 140px;
+}
+
+.slike-novosti {
+    margin-right: 140px;
+}
+
+@media (max-width: 480px) {
+    /* Navbar */
+    .navbar-slika {
+        width: 100px;
+        height: 50px;
+    }
+    .navbar {
+        width: 100%;
+    }
+    
+    /* Footer */
+    .footer-link {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .footer-liste {
+        margin-right: 23px;
+    }
+
+    /* O nama strana */
+    .onama-slike-2 {
+        max-width: 200px;
+        max-height: 200px;
+        float: right;
+        margin-right: 20px;
+    }
+    .onama-slike-3 {
+        max-width: 200px;
+        max-height: 200px;
+        float: right;
+        margin-right: 20px;
+    }
+    .onama-tekst {
+        font-size: 12px;
+        float: left;
+    }
+
+    /* Proizvodi */
+    .dugme-unite {
+        width: 100px;
+        height: 70px;
+    }
+    .dugme-go {
+        width: 100px;
+        height: 70px;
+    }
+    .dugme-tcg {
+        width: 100px;
+        height: 70px;
+    }
+    .dugme-scarlet-violet {
+        width: 100px;
+        height: 70px;
+    }
+    .proizvodi-tcg-slika {
+        width: 100%;
+    }
+
+    /* Novosti */
+    .text-novosti {
+        font-size: 14px;
+    }
+    .telo-karte-video-igre {
+        width: 100%;
+    }
+    .kartica-video-igre {
+        width: 50%;
+    }
+
+    /* Kontakt */
+    .kontakt-lista {
+        font-size: 14px;
+    }
+    .mapa {
+        width: 200px;
+        height: 200px;
+    }
+    #posaljiDugme {
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+    /* Navbar */
+    .navbar-slika {
+        width: 100px;
+        height: 50px;
+    }
+    
+    /* Footer */
+    .footer-link {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .footer-liste {
+        margin-right: 80px;
+    }
+
+    /* O nama strana */
+    .onama-slike-2 {
+        max-width: 240px;
+        max-height: 240px;
+        padding-top: 30px;
+        float: right;
+    }
+    .onama-slike-3 {
+        max-width: 250px;
+        max-height: 250px;
+        float: right;
+    }
+    .onama-tekst {
+        font-size: 12px;
+        float: left;
+    }
+
+    /* Proizvodi */
+    .proizvodi-tcg-slika {
+        width: 100%;
+    }
+    .proizvodi-go-slika {
+        width: 100%;
+    }
+    .proizvodi-unite-slika {
+        width: 100%;
+    }
+    
+    /* Novosti */
+    .telo-karte-video-igre {
+        width: 100%;
+    }
+    .kartica-video-igre {
+        width: 50%;
+    }
+
+    /* Kontakt */
+    #posaljiDugme {
+        margin-left: 20px;
+    }
+    .mapa {
+        width: 240px;
+        height: 240px;
+    }
+}    
+
+@media (min-width: 581px) and (max-width: 760px) {
+    /* Navbar */
+    .navbar-slika {
+        width: 100px;
+        height: 50px;
+    }
+    
+    /* Footer */
+    .footer-link {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .footer-liste {
+        margin-right: 80px;
+    }
+
+    /* O nama strana */
+    .onama-slike-2 {
+        max-width: 280px;
+        max-height: 280px;
+        padding-top: 30px;
+    }
+    .onama-slike-3 {
+        max-width: 280px;
+        max-height: 280px;
+    }
+    .onama-tekst {
+        font-size: 15px;
+        float: left;
+    }
+
+    /* Proizvodi */
+    .proizvodi-tcg-slika {
+        width: 100%;
+    }
+    .proizvodi-go-slika {
+        width: 100%;
+    }
+    .proizvodi-unite-slika {
+        width: 100%;
+    }
+
+    /* Novosti */
+    .telo-karte-video-igre {
+        width: 100%;
+    }
+    .kartica-video-igre {
+        width: 50%;
+    }
+
+    /* Kontakt */
+    #posaljiDugme {
+        margin-left: 20px;
+    }
+    .mapa {
+        width: 240px;
+        height: 240px;
+    }
+}    
+
+@media (min-width: 761px) and (max-width: 1000px) {
+    /* Navbar */
+    .navbar-slika {
+        width: 100px;
+        height: 50px;
+    }
+    
+    /* Footer */
+    .footer-link {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .footer-liste {
+        margin-right: 80px;
+    }
+
+    /* O nama strana */
+    .onama-slike-2 {
+        max-width: 350px;
+        max-height: 350px;
+        padding-top: 30px;
+    }
+    .onama-slike-3 {
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .onama-tekst {
+        font-size: 15px;
+        float: left;
+    }
+
+    /* Proizvodi */
+    .proizvodi-tcg-slika {
+        width: 100%;
+    }
+    .proizvodi-go-slika {
+        width: 100%;
+    }
+    .proizvodi-unite-slika {
+        width: 100%;
+    }
+
+    /* Novosti */
+    .telo-karte-video-igre {
+        width: 100%;
+    }
+    .kartica-video-igre {
+        width: 50%;
+    }
+
+    /* Kontakt */
+    #posaljiDugme {
+        margin-left: 80px;
+    }
+    .mapa {
+        width: 330px;
+        height: 330px;
+    }
+}    
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+    /* Navbar */
+    .navbar-slika {
+        width: 100px;
+        height: 50px;
+    }
+    
+    /* Footer */
+    .footer-link {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .footer-liste {
+        margin-right: 80px;
+    }
+
+    /* O nama strana */
+    .onama-slike-2 {
+        max-width: 480px;
+        max-height: 480px;
+        padding-top: 30px;
+    }
+    .onama-slike-3 {
+        max-width: 480px;
+        max-height: 480px;
+    }
+    .onama-tekst {
+        font-size: 18px;
+        float: left;
+    }
+
+    /* Proizvodi */
+    .proizvodi-tcg-slika {
+        height: 100%;
+    }
+    .proizvodi-go-slika {
+        height: 100%;
+    }
+    .proizvodi-unite-slika {
+        height: 100%;
+    }
+
+    /* Novosti */
+    .telo-karte-video-igre {
+        width: 100%;
+    }
+    .kartica-video-igre {
+        width: 50%;
+    }
+
+    /* Kontakt */
+    #posaljiDugme {
+        margin-left: 80px;
+    }
+    .mapa {
+        width: 440px;
+        height: 440px;
+    }
+}
+
+/* Media za o nama dugmice */
+@media (min-width: 990px) and (max-width: 992px) {
+    .onama-dugme {
+        float: right;
+        margin-right: 260px;
+    }
+    .onama-dugme-2 {
+        float: right;
+        margin-right: 170px;
+        margin-top: -38px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1000px) {
+    .onama-dugme {
+        float: right;
+        margin-right: 380px;
+    }
+    .onama-dugme-2 {
+        float: right;
+        margin-right: 290px;
+        margin-top: -38px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1199px) {
+    .onama-dugme {
+        float: right;
+        margin-right: 380px;
+    }
+    .onama-dugme-2 {
+        float: right;
+        margin-right: 290px;
+        margin-top: -38px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .onama-dugme {
+        float: right;
+        margin-right: 470px;
+    }
+    .onama-dugme-2 {
+        float: right;
+        margin-right: 380px;
+        margin-top: -38px;
+    }
+}
+
+/* Media za proizvode */
+@media (min-width: 768px) and (max-width: 1000px) {
+    .proizvodi-kartice {
+        height: 235px;
+    }
+    .proizvodi-tcg-slika {
+        height: 235px;
+    }
+    .proizvodi-go-slika {
+        height: 235px;
+    }
+    .proizvodi-unite-slika {
+        height: 235px;
+    }
+}
+
+/* Kontakt mapa */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    /* Kontakt */
+    #posaljiDugme {
+        margin-left: 80px;
+    }
+    .mapa {
+        width: 540px;
+        height: 540px;
+    }
+}
